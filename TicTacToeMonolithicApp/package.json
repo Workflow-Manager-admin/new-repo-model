@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "e2e-test": "cypress run"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +30,8 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "cypress": "^13.6.6",
+    "@testing-library/cypress": "^9.4.1"
   }
 }
